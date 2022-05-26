@@ -82,7 +82,7 @@ cdef class FtxExchange(ExchangeBase):
     UPDATE_ORDERS_INTERVAL = 10.0
     ORDER_NOT_EXIST_CONFIRMATION_COUNT = 3
 
-    FTX_API_ENDPOINT = "https://ftx.com/api"
+    FTX_API_ENDPOINT = "https://ftx.us/api"
 
     @classmethod
     def logger(cls) -> HummingbotLogger:

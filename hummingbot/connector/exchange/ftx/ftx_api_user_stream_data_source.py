@@ -14,7 +14,7 @@ from hummingbot.core.data_type.user_stream_tracker_data_source import UserStream
 from hummingbot.logger import HummingbotLogger
 from hummingbot.connector.exchange.ftx.ftx_auth import FtxAuth
 
-FTX_API_ENDPOINT = "wss://ftx.com/ws/"
+FTX_API_ENDPOINT = "wss://ftx.us/ws/"
 FTX_USER_STREAM_ENDPOINT = "userDataStream"
 
 
