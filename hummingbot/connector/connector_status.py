@@ -31,7 +31,6 @@ connector_status = {
     'kraken': 'green',
     'kucoin': 'yellow',
     'kucoin_testnet': 'yellow',
-    'k2': 'red',
     'liquid': 'green',
     'loopring': 'yellow',
     'mexc': 'yellow',
