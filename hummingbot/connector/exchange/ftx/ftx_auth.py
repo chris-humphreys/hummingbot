@@ -34,12 +34,12 @@ class FtxAuth:
 
         # V3 Authentication headers
         headers = {
-            "FTX-KEY": self.api_key,
-            "FTX-SIGN": signature,
-            "FTX-TS": str(ts)
+            "FTXUS-KEY": self.api_key,
+            "FTXUS-SIGN": signature,
+            "FTXUS-TS": str(ts)
         }
         if self.subaccount_name is not None and self.subaccount_name != "":
-            headers["FTX-SUBACCOUNT"] = self.subaccount_name
+            headers["FTXUS-SUBACCOUNT"] = self.subaccount_name
 
         return headers
 
