@@ -26,7 +26,7 @@ EXCHANGE_NAME = "ftx"
 
 FTX_REST_URL = "https://ftx.us/api"
 FTX_EXCHANGE_INFO_PATH = "/markets"
-FTX_WS_FEED = "wss://ftx.cus/ws/"
+FTX_WS_FEED = "wss://ftx.us/ws/"
 
 MAX_RETRIES = 20
 SNAPSHOT_TIMEOUT = 10.0
